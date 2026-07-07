@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="AstroSolve connects seekers with astrologers for live consultations, personalised Kundli, and daily horoscopes.">
+    <title>AstroSolve | Cosmic Guidance Reimagined</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-nav">
+      <a class="brand" href="#top" aria-label="AstroSolve home">
+        <img class="brand-icon" src="uploads/astrosolve_icon_ios_fullbleed_1024.png" alt="" aria-hidden="true">
+        <span class="brand-text"><span>Astro</span><strong>Solve</strong></span>
+      </a>
+      <a class="nav-cta" href="#astrologer-waitlist">Join as Astrologer</a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <img class="hero-art" src="uploads/astrosolve-cosmic-chart.png" alt="" aria-hidden="true">
+        <div class="hero-inner reveal">
+          <div class="pill">
+            <span></span>
+            Launching Soon - Be First to Experience It
+          </div>
+          <h1>
+            Your Cosmic Guidance,<br>
+            <span>Reimagined</span>
+          </h1>
+          <p>
+            AstroSolve connects you with India's finest astrologers for live consultations, personalised Kundli, and daily horoscopes in Hindi, English, Tamil and more.
+          </p>
+          <a class="button primary" href="#astrologer-waitlist">Are You an Astrologer? Join the Waitlist</a>
+          <div class="subnote">We'll reach out as soon as we're ready to onboard our first astrologers.</div>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="services">
+        <div class="container">
+          <div class="section-heading">
+            <p>What We're Building</p>
+            <h2>Ancient Wisdom,<br>Modern Platform</h2>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">💬</div>
+              <h3>Live Consultations</h3>
+              <p>Chat or voice call with clients seeking real-time, personalised astrological guidance.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">🔮</div>
+              <h3>Kundli and Charts</h3>
+              <p>Help clients with detailed birth chart readings, planetary analysis, and life predictions.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">☀</div>
+              <h3>Daily Horoscopes</h3>
+              <p>Share daily insights across all 12 zodiac signs for love, career, health, and finance.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">💕</div>
+              <h3>Kundli Matching</h3>
+              <p>Guide clients through marriage compatibility analysis with traditional Vedic matchmaking.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p>For Astrologers</p>
+            <h2>Why Partner With AstroSolve</h2>
+          </div>
+          <div class="benefit-grid">
+            <article class="benefit-card">
+              <div class="benefit-icon" aria-hidden="true">📱</div>
+              <h3>Your Own Presence</h3>
+              <p>A dedicated profile page, ratings, and reviews. Build your reputation on a platform clients trust.</p>
+            </article>
+            <article class="benefit-card">
+              <div class="benefit-icon" aria-hidden="true">₹</div>
+              <h3>Set Your Own Rates</h3>
+              <p>You decide your per-minute rate. Earn on your schedule, consult as much or as little as you like.</p>
+            </article>
+            <article class="benefit-card">
+              <div class="benefit-icon" aria-hidden="true">IN</div>
+              <h3>Pan-India Reach</h3>
+              <p>Reach seekers across India in Hindi, English, Tamil, Bengali, Telugu, and more languages.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="waitlist" id="astrologer-waitlist">
+        <div class="waitlist-inner">
+          <div class="pill dark">
+            <span></span>
+            Limited Early Spots
+          </div>
+          <h2>Join as an Astrologer</h2>
+          <p>
+            We're onboarding our first wave of astrologers before public launch. Leave your details and we'll reach out when we're ready. No commitment needed.
+          </p>
+          <form
+            class="waitlist-form"
+            id="astrologer-form"
+            action="https://docs.google.com/forms/d/e/1FAIpQLSesrsOXlodSJ8a2I_BdZdYTc2P0dJsC3BX1YLH6iH74ACGVKg/formResponse"
+            method="POST"
+            target="google-form-submit-frame"
+          >
+            <label>
+              Full Name
+              <input type="text" name="entry.326998931" placeholder="e.g. Pandit Ramesh Sharma" autocomplete="name" required>
+            </label>
+            <label>
+              Email Address
+              <input type="email" name="entry.1479090337" placeholder="you@example.com" autocomplete="email" required>
+            </label>
+            <label>
+              Mobile Number
+              <span class="phone-input">
+                <span>+91</span>
+                <input type="tel" name="entry.299157188" placeholder="Enter your 10-digit number" autocomplete="tel" required>
+              </span>
+            </label>
+            <label>
+              Primary Expertise
+              <input type="text" name="entry.2084226975" placeholder="e.g. Vedic Astrology, Tarot, Vastu..." required>
+            </label>
+            <button class="button primary full-width" type="submit">Request Early Access</button>
+            <p class="privacy-note">By submitting, you agree to be contacted by AstroSolve. We respect your privacy and won't spam you.</p>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+          <iframe class="hidden-frame" name="google-form-submit-frame" title="Google Forms submission"></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <img src="uploads/astrosolve_icon_ios_fullbleed_1024.png" alt="" aria-hidden="true">
+          <strong>AstroSolve</strong>
+        </div>
+        <span>&copy; <span id="year"></span> AstroSolve. All rights reserved.</span>
+        <nav aria-label="Footer navigation">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
