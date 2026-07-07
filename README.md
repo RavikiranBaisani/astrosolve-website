@@ -30,7 +30,7 @@ astrosolve.co
 Until DNS finishes propagating, the fallback Pages URL should be:
 
 ```text
-https://ravikiranbaisani.github.io/astropandit-website/
+https://ravikiranbaisani.github.io/astrosolve-website/
 ```
 
 ## Google Forms Integration
