@@ -175,16 +175,6 @@ input:focus {
   pointer-events: none;
 }
 
-.hero-art {
-  position: absolute;
-  top: 108px;
-  right: max(-160px, -8vw);
-  width: min(42vw, 520px);
-  min-width: 320px;
-  opacity: 0.14;
-  pointer-events: none;
-}
-
 .hero-inner {
   position: relative;
   z-index: 1;
@@ -506,13 +496,6 @@ input:focus {
   .section {
     padding-top: 72px;
     padding-bottom: 72px;
-  }
-
-  .hero-art {
-    top: 116px;
-    right: -180px;
-    width: 460px;
-    opacity: 0.1;
   }
 
   .benefit-grid {
