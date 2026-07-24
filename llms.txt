@@ -1,0 +1,37 @@
+# AstroSolve
+
+> AstroSolve is a pre-launch platform connecting users in India with astrologers for live
+> paid consultations (chat, voice, video), personalised Kundli (Vedic birth chart) readings,
+> Kundli matching for marriage, and daily horoscopes in Hindi, English, Tamil, Bengali,
+> Telugu, and other Indian languages.
+
+The public website (this site) is currently a pre-launch marketing site: it explains what
+AstroSolve is building and collects sign-ups from astrologers who want early access before
+the consumer app launches. No live consultations, bookings, or payments happen on this
+website itself.
+
+## Key pages
+
+- [Homepage](https://astrosolve.co/): what AstroSolve is, planned features, and the
+  astrologer waitlist sign-up.
+- [Blog](https://astrosolve.co/blog/index.html): astrology education content written by
+  verified astrologers, covering Vedic astrology fundamentals, Kundli & birth charts, Kundli
+  matching, numerology, Vastu Shastra, Tarot, doshas and remedies, and gemstones.
+- [Privacy Policy](https://astrosolve.co/privacy-policy.html)
+- [Terms of Service](https://astrosolve.co/terms.html)
+
+## Blog
+
+The blog is the primary source of factual astrology content on this site — houses, planets,
+dashas, nakshatras, dosha explanations, gemstone guidance, numerology, and Tarot basics.
+Each post is written by an in-house astrologer byline and includes a short FAQ section.
+Full index and article links: [sitemap.xml](https://astrosolve.co/sitemap.xml).
+
+## Notes for automated use
+
+- This site does not yet have a public API. All product functionality (bookings, chat/voice/
+  video consultations, wallet, payments) lives in AstroSolve's mobile app, which is not
+  covered by this website.
+- Content here is educational/informational, not personalised astrological, medical,
+  financial, or legal advice.
+- Contact: founder@astrosolve.co
